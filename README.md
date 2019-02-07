@@ -28,4 +28,4 @@ Reproducing this problem seemed to require the following steps:
 1. An Android library project.
 1. This Android library project should have the [Android Groovy plugin](https://github.com/groovy/groovy-android-gradle-plugin) applied (use-case: Spock tests)
    1. There must be at least one Groovy class in `android-lib/src/test/groovy` to trigger the issue.
-1. This Android library project must have one project dependency on a plan `java-library` proejct.
+1. This Android library project must have one project dependency on a plain `java-library` proejct.

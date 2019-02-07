@@ -10,7 +10,7 @@ This fails:
 ```
 ./gradlew clean && ./gradlew :app:assembleDebug --debug
 ```
-(nb: `./gradlew clean :app:assembleDebug` does not always fail)
+(nb: `./gradlew clean :app:assembleDebug --debug` does not always fail)
 
 The failure looks like this:
 ```
